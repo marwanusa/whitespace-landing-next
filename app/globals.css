@@ -1,26 +1,42 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+@custom-variant dark (&:where(.dark, .dark *));
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+@theme {
+  --breakpoint-sm: 320px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1152px;
+  --breakpoint-xl: 1440px;
+  --breakpoint-2xl: 1920px;
+
+  --color-brand: #043873;
+  --color-brand-100: #4f9cf9;
+  --color-yellow: #ffe492;
+  --color-blue-light: #a7cefc;
+  --color-white: #ffffff;
+  --color-black: #212529;
+
+  --spacing-container-sm: 16px;   /* 320px */
+  --spacing-container-md: 28px;   /* 768px */
+  --spacing-container-lg: 32px;   /* 1152px */
+  --spacing-container-xl: 32px;   /* 1440px */
+  --spacing-container-2xl: 229px; /* 1920px */
+
+  /* Gutters */
+
+  --spacing-gutter-lg: 100px;
+  --spacing-gutter-md: 100px;
+  --spacing-gutter-sm: 80px;
+}
+
+@layer components {
+    .mainContainer {
+    @apply my-gutter-sm md:my-gutter-md lg:my-gutter-lg;
+  }
+  .mainSection{
+    @apply px-container-sm md:px-container-md lg:px-container-lg xl:px-container-xl 2xl:px-container-2xl
+  }
 }
