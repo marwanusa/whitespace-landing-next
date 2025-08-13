@@ -8,7 +8,7 @@ const RightArrowBtn = ({btnTitle}:{btnTitle:string}) => {
             >
               {btnTitle}
               <Image
-                src={`/assets/Right arrow icon.svg`}
+                src={`/assets/Rightarrowicon.svg`}
                 alt="right Arrow"
                 width={26}
                 height={26}
