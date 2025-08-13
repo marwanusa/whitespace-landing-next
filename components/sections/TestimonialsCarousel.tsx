@@ -24,7 +24,7 @@ const TestimonialsCarousel = () => {
           <CarouselContent>
             {testimonialsData.map((item, index) => (
               <CarouselItem key={index} className="basis-full lg:basis-1/3">
-                <Testimonials {...item} />
+                <Testimonials {...item} type={item.type as "dark" | "light"} />
               </CarouselItem>
             ))}
           </CarouselContent>
