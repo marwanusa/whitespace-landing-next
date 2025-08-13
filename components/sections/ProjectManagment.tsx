@@ -6,7 +6,7 @@ import LeftSideImgArt from "../article/LeftSideImgArt";
 const ProjectManagment = () => {
   return (
     <SectionWrapper
-      sectionStyle="xl:h-[1285px] lg:h-[1183px] md:h-[1661px] h-[1292px] bg-white mainSection"
+      sectionStyle="xl:h-[1285px] lg:h-[1183px] md:h-[1661px] h-[1388px] bg-white mainSection"
       mainStyle="mainContainer"
     >
       <RightSideImgArt
