@@ -6,7 +6,7 @@ import Image from "next/image";
 const SponsorsSection = () => {
   return (
     <SectionWrapper
-      sectionStyle="mainSection xl:h-[538px] lg:h-[528px] md:h-[1015px] h-[893px]"
+      sectionStyle="mainSection xl:h-[538px] lg:h-[528px] md:h-[821px] h-[893px]"
       mainStyle="mainContainer sm:mt-0 md:mt-0 flex flex-col gap-[100px] h-full items-center"
     >
       <h2 className="text-6xl font-bold text-black">Our sponsors</h2>

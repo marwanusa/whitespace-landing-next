@@ -1,4 +1,3 @@
-
 import Footer from "@/components/Footer";
 import ExtensionSection from "@/components/sections/ExtensionSection";
 import FavoriteAppsSection from "@/components/sections/FavoriteAppsSection";

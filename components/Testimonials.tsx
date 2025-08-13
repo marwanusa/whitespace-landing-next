@@ -16,7 +16,7 @@ const Testimonials = ({
         type === "dark"
           ? "bg-brand-100 text-white border-1 border-white"
           : "bg-white border-1 border-brand text-black"
-      } xl:h-[498px] lg:h-[560px] md:h-[430px] h-[550px] flex flex-col gap-[60px] py-[60px] px-[40px] rounded-lg`}
+      } xl:h-[498px] lg:h-[560px] md:h-[430px] h-[550px] flex flex-col gap-[60px] py-[60px] px-[40px] rounded-lg cursor-grab`}
     >
       <div className="flex flex-col gap-[32px]">
         <Image
