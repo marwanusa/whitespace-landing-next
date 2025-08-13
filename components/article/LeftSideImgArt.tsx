@@ -11,7 +11,7 @@ const LeftSideImgArt = ({
   color,
 }: ArticleProps) => {
   return (
-    <div className="flex flex-col-reverse lg:flex-row  gap-8 lg:justify-between items-center mt-[100px]">
+    <div className="flex flex-col-reverse lg:flex-row  gap-8 lg:justify-between items-center ">
       <div className="xl:w-[583px] xl:h-[543px] lg:w-[528px] lg:h-[492px] md:w-[454px] md:h-[423px] w-[279px] h-[260px] flex items-center">
         <Image
           src={image ? image : "https://placehold.co/748x547/png"}
