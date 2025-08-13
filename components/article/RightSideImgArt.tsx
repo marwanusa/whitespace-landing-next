@@ -23,13 +23,7 @@ const RightSideImgArt = ({
                 </React.Fragment>
               ))
             : title}
-          <Image
-            src={"/assets/underline.png"}
-            alt="underline"
-            width={700}
-            height={20}
-            className="mt-[-50px] "
-          />
+
         </h2>
         <p className={`text-${color} max-w-[672px]`}>{paragraph}</p>
         <RightArrowBtn btnTitle={btnTitle}/>
